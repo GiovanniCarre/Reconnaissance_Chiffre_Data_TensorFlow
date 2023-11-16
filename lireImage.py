@@ -3,7 +3,7 @@ import numpy as np
 import tensorflow as tf
 
 # Charger l'image
-image_path = "test3.png"
+image_path = "test9.png"
 image = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
 image = cv2.resize(image, (28, 28))  # Assurez-vous que l'image a la même résolution que les données d'entraînement
 image = image.astype('float32') / 255  # Normaliser les valeurs des pixels
