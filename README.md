@@ -1,9 +1,19 @@
-# Reconnaissance_Chiffre_Data_TensorFlow
-Reconnaissance de chiffre dans une image manuscrite avec Efficacité de 99%, avec réseaux de neurones (CNN) Python &TensorFlow
+# Reconnaissance de Chiffres avec TensorFlow
 
-Possibilité d'installer nous-mêmes le modèle pour tester avec sa propre image. La base de données du MNIST qui est une base de données étiquetées de chiffres manuscrits.
+## Description
+Ce projet réalise la reconnaissance de chiffres dans des images manuscrites avec une efficacité de **99 %** en utilisant des réseaux de neurones convolutifs (CNN) avec Python et TensorFlow.
 
-#Installations Requises:
+### Fonctionnalités
+- **Test personnel :** Possibilité d'installer le modèle localement pour évaluer vos propres images.
+- **Base de données :** Utilisation de la base de données **MNIST**, qui est une collection étiquetée de chiffres manuscrits.
+
+## Installations Requises
+Pour utiliser ce projet, assurez-vous d'installer les bibliothèques nécessaires avec les commandes suivantes :
+
+
+
+```bash
 pip install opencv-python
 pip install tensorflow
 pip install numpy
+
